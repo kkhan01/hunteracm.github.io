@@ -6,7 +6,7 @@ import Typography from "@material-ui/core/Typography";
 const Header = (props) => {
   return (
     <>
-      <AppBar>
+      <AppBar position="relative">
         <Toolbar>
           <Typography variant="h6">Hunter ACM</Typography>
         </Toolbar>
